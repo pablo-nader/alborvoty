@@ -1,5 +1,9 @@
+import Container from "react-bootstrap/esm/Container"
+
 export default function Home() {
   return (
-    <div>Home</div>
+    <Container>
+      Home
+    </Container>
   )
 }
