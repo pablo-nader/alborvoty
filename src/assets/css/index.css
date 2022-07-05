@@ -80,7 +80,7 @@ header {
   padding: 0 17px;
   margin-top: 0;
   border-radius: 10px;
-  line-height: 3.3333333333rem;
+  line-height: 3rem;
   font-weight: bold;
   border: none;
 }
@@ -106,3 +106,36 @@ header {
   color: inherit;
 }
 
+.introText {
+  border-bottom: 2px solid #80808036;
+  padding: 0 0 40px 0;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.searchButton {
+  height: 47px;
+  background: #fafafa;
+  border-radius: 11px;
+}
+
+.searchButton input,
+.searchButton input:focus,
+.searchButton input:active:focus,
+.searchButton span {
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.searchButton:hover,
+.searchButton:focus-within ,
+.searchButton:active,
+.searchButton:focus:active {
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}
+
+.searchButton:focus {
+  box-shadow: 0.125rem 0.25rem rgb(0 0 0 / 8%) !important
+}
